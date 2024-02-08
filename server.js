@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
   res.send(`<h1>landing page</h1>`)
 })
 
+app.get('/q', (req, res) =>{
+  res.send("This is testing")
+})
+
 app.listen(PORT, () => {
   console.log(`Server is listening on ${PORT}`)
 })
