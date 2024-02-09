@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.send(`<h1>landing page</h1>`)
 })
 
-app.get('/q', (req, res) =>{
+app.get('/Gift', (req, res) =>{
   res.send("This is testing")
 })
 
